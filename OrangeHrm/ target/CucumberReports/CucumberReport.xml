@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.226">
-    <testcase classname="Check Login functionality of Orange Hrm Application" name="A) User login to Orange Hrm Application with valid credentials" time="0.007">
-        <system-out><![CDATA[Given User is on Login page of Orange Hrm application.......................passed
-When User enters correct username as "admin" and password as "admin"........passed
-And Click on Login button...................................................passed
-Then User should login successfully.........................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Check Login functionality of Orange Hrm Application" name="B) User login to Orange Hrm Application with invalid credentials" time="0.005">
-        <system-out><![CDATA[Given User is on Login page of Orange Hrm application.......................passed
-When User enters incorrect username as "admin2" and password as "admin02"...passed
-And Click on Login button...................................................passed
-Then User should get an error message is as "Invalid Login".................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Check Login functionality of Orange Hrm Application" name="C) Logout from Orange Hrm Application" time="0.002">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.061">
+    <testcase classname="Check Login functionality of Orange Hrm Application" name="B) Logout from Orange Hrm Application" time="8.889">
         <system-out><![CDATA[Given User is on home page of Orange Hrm application........................passed
 When User clicks on Logout button...........................................passed
 Then User should logout successfully........................................passed
