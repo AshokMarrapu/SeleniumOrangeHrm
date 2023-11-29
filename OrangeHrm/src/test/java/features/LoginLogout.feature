@@ -1,8 +1,5 @@
 
 Feature: Check Login functionality of Orange Hrm Application
-  
-  Background:
-    
 
 @sanity
   Scenario: A) User login to Orange Hrm Application with valid credentials
@@ -11,7 +8,7 @@ Feature: Check Login functionality of Orange Hrm Application
     And Click on Login button
     Then User should login successfully
     
-    @smoke
+   @smoke
   Scenario: B) Logout from Orange Hrm Application 
     Given User is on home page of Orange Hrm application
     When User clicks on Logout button

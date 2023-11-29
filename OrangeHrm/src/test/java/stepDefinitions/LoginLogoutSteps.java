@@ -63,8 +63,8 @@ public class LoginLogoutSteps {
 	@When("User clicks on Logout button")
 	public void user_clicks_on_logout_button() throws Exception {
 		driver.findElement(By.linkText("Logout")).click();
-				System.out.println("--> User clicks on logout button");
-				Thread.sleep(3000);
+		System.out.println("--> User clicks on logout button");
+		Thread.sleep(3000);
 	}
 
 	@Then("User should logout successfully")
